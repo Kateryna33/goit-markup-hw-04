@@ -284,22 +284,37 @@ letter-spacing: 0.02em;
 margin-bottom: 72px;
 }
 
-
+.soc-list {
+display: flex;
+/* justify-content: center; */
+}
 
 .picture-soc-item {
-display: flex;
 width: 40px;
 height: 40px;
+margin-top: 8px;
+margin-bottom: 32px;
+padding-right: 24px;
+}
+
+.picture-soc-item:not(:last-child) {
+margin-right: 24px;
+}
+
+.picture-soc-icon {
+fill: var(--primery-bcg-color); 
+}
+
+.soc-link {
+width: 40px;
+height: 40px;  
 border-radius: 50%;
-background-color: var(--primery-brand-color);
+background-color: var(--primery-brand-color); 
+display: flex;
 justify-content: center;
 align-items: center;
 }
 
-.picture-soc-icon {
-    display:inline-block;
-    
-}
 
 .list-team {
  display: flex;
