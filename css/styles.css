@@ -400,7 +400,7 @@ display: flex;
 }
 
 .container-footer {
-    display: flex;
+display: flex;
 
 }
 
@@ -446,7 +446,7 @@ justify-content: center;
 }
 
 .social-media {
-    margin-left: 120px;
+margin-left: 120px;
 }
 .social-media-link {
 width: 40px;
@@ -462,19 +462,13 @@ align-items: center;
 justify-content: center;
 display: flex;  
 align-items: center;
-
-
 }
 
 .social-media-link:hover, 
 .social-media-link:focus {
 background-color: var(--succes-color);
-
 }
 
-/* .social-media-link:not(:last-child) {
-margin-right: 692px;
-}  */
 
 .social-media-item {
 width: 40px;
