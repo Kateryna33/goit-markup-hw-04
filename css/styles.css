@@ -302,9 +302,9 @@ padding-right: 24px;
 fill: var(--primery-bcg-color); 
 }
 
-.picture-soc-item:hover,
-.picture-soc-item:focus {
- background-color: var(--pressed-state-color);   
+.soc-link:hover,
+.soc-link:focus {
+background-color: var(--pressed-state-color);   
 }
 
 .soc-link {
@@ -434,6 +434,7 @@ margin-left: 860px;
 .social-media-name {
 font-family: 'Roboto', sans-serif;
 color: var(--primery-bcg-color);
+font-weight: 500;
 margin: 0 auto; 
 }
 
@@ -451,6 +452,12 @@ align-items: center;
 justify-content: center;
 display: flex;  
 align-items: center;  
+}
+
+.social-media-link:hover, 
+.social-media-link:focus {
+background-color: var(--succes-color);
+
 }
 
 /* .social-media-link:not(:last-child) {
