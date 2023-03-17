@@ -395,6 +395,7 @@ border-color: var(--pressed-state-color);
 background-color: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
+display: flex;
 }
 
 .footer-logo {
@@ -422,18 +423,48 @@ margin-top: 16px;
 color: var(--primery-bcg-color);
 }
 
-/* .social-media {
-    align-items: center;
-    justify-content: center;    
+.social-media-list {
+display: flex; 
+gap: 16px;
+align-items: center;
+justify-content: center;
+margin-left: 860px;
 }
 
 .social-media-name {
-margin-left: 540px;
-padding-top: 100px;
-padding-bottom: 188px;
-align-items: center;
+font-family: 'Roboto', sans-serif;
+color: var(--primery-bcg-color);
+margin: 0 auto; 
+}
+
+.social-media-link {
+width: 40px;
+height: 40px;  
+border-radius: 50%;
+background-color: var(--text-color); 
+display: flex;
+justify-content:center;
+align-items: center; 
+}
+
+.social-media-pic {
 justify-content: center;
-} */
+display: flex;  
+align-items: center;  
+}
+
+/* .social-media-link:not(:last-child) {
+margin-right: 692px;
+}  */
+
+.social-media-item {
+width: 40px;
+height: 40px;
+margin-bottom: 132px;
+margin-top: 16px;
+}
+
+
 
 
     /*--------Portfolio--------*/
