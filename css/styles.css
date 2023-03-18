@@ -528,17 +528,10 @@ row-gap: 48px;
 margin-top: 72px; 
 }
 
-/* .card-border:hover {
-background-color: var(--primery-bcg-color);
-border: 1px solid var(--light-color);
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
-.menu-shadow:hover,
+.menu-shadow:hover, 
 .menu-shadow:focus {
-background-color: var(--primery-bcg-color);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    }  
+}  
 
 .menu-work-foto {
 color: var(--hero-background-color);
